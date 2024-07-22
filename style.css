@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#D9D9D9,rgb(186, 176, 176),#091B25);
+}
+
+.header{
+    position: relative;
+    top:40px;
+    margin-left: 50px;
+    width: 90vw;
+    height: 80px;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-top-left-radius: 30px;
+    /* border-top-right-radius: 15px; */
+}
+.header a{
+    margin-left: 0px;
+    font-family: 'Playfair Display';
+    text-decoration: none;
+}
+.header img{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+.header button {
+    background-color: #f3f3ed;
+    color: black;
+    margin-left: 70px;
+    height: 40px;
+    width: 80px;
+    border-radius: 8px;
+    opacity: 0.9;
+}
+
+.header button:hover {
+    background-color: rgb(255, 255, 255) ;
+    color: #000000; 
+
+}
+
+.header button:active {
+    height: 50px;
+    width: 90px;
+    font-size: 20px;
+}
+
+.logo{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.navbar a{
+    margin-left: 75px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 18px;
+    font-family: 'Nunito Sans';
+}
+#home{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff; 
+}
+.navbar a:active,
+.navbar a.active {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.content{
+    align-content: center;
+    justify-content:space-between;
+    background-color: rgb(186, 176, 176);
+    margin-top: 44px;
+    margin-left: 50px;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    color: #000000;
+}
+
+.right{
+    margin-top: 70px;
+    margin-left: 60px;
+    align-content: center;
+    height: 50vh;
+    width: 40vw;
+    
+
+}
+.right h1{
+    font-size: 50px;
+    font-weight:500;
+}
+
+.right h3{
+    float: left;
+    font-weight:500;
+}
+
+.btn{
+    margin-top: 40px;
+}
+
+.btn button {
+    background-color: #f3f3ed;
+    color: #000000;
+    border: 3px solid black;
+    height: 45px;
+    width: 90px;
+    border-radius: 8px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: rgb(255, 255, 255) ;
+    color: #000000; 
+}
+
+.btn button:active {
+    height: 50px;
+    width: 90px;
+    font-size: 16px;
+}
+
+.left{
+    float:right;
+   /* background-color: black; */
+   margin-top: 50px;
+    height: 60vh;
+    width: 50vw;
+}
+
+.left img{
+    height: 60vh;
+    width: 30vw;
+    margin-left: 100px;
+}
+
+.skills{
+    position: relative;
+    background-color: #fff;
+    padding:70px;
+    width: 90vw;
+    margin-left: 50px;
+    height: 100vh;
+    display: flex;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between; 
+    
+} 
+
+.skills img{
+    margin-top: 70px;
+    height: 250px;
+    width: 250px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.skills a{
+    font-family: 'Playfair Display';
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact{
+    background-color: #fff;
+    width: 90vw;
+    margin-left: 50px;
+    height: 70vh;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.contact img{
+    height: 24px;
+    width: 24px;
+    margin-right: 10px; 
+    align-items: center;
+}
+
+#img1{
+ margin-top: 7px;
+}
+
+.contact a{
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+    color: black;
+    line-height: 24px; 
+}
+
+hr{
+    width: 90vw;
+    margin-left: 50px;
+    background-color: #000000;
+    
+}
